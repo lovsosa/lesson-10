@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- 1 level -->
@@ -37,11 +38,59 @@
 
   <!-- 2 задание -->
   <!-- <div class="wrapper"></div>
-
   <nav class="nav-timer">
     <a href="#" class="start">Start</a>
     <a href="#" class="stop">Stop</a>
   </nav> -->
+  <style>
+    .container {
+        max-width: 600px;
+        min-height: 250px;
+        margin: 200px auto;
+        background-color: greenyellow;
+    }
+    .time-menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        margin-top: 50px;
+    }
+    .btn-start {
+        padding: 15px 0 15px 0;
+        background-color: green;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .btn-stop {
+        padding: 15px 0 15px 0;
+        background-color: red;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .btn-krug {
+        padding: 15px 0 15px 0;
+        background-color: blue;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    
+</style>
+
+<div class="container">
+    <div class="time"></div>
+    <div class="time-menu">
+        <button class="btn-start">Старт</button>
+        <button class="btn-stop">Сброс</button>
+        <button class="btn-krug">Круг</button>
+    </div>
+    <ul class="list"></ul>
+</div>
 
   <!-- JS src -->
   <script src="node_modules/jquery/dist/jquery.min.js"></script>

@@ -1,1 +1,24 @@
-
+.wrapper {
+	width: 200px;
+	height: 100px;
+	background-color: rgb(199, 228, 133);
+	margin-bottom: 15px;
+}
+.nav-timer {
+	width: 150px;
+	height: 50px;
+	background-color: rgb(236, 140, 140);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.start {
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+}
+.stop {
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+}
